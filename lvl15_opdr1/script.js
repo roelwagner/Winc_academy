@@ -1,11 +1,12 @@
-const btnAlert = document.querySelector("#mybutton");
-const alertButton = () => {
+let btnAlert = document.querySelector("#mybutton");
+let alertButton = () => {
   alert("button clicked");
 };
 btnAlert.addEventListener("click", alertButton);
 
-const bkg = document.querySelector(".blue-background");
-const toggleBackground = () => {
+let button2 = document.querySelector("#button2");
+let bkg = document.querySelector(".blue-background");
+let toggleBackground = () => {
   bkg.classList.toggle("red-background");
 };
-bkg.addEventListener("click", toggleBackground);
+button2.addEventListener("click", toggleBackground);
